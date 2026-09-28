@@ -175,6 +175,13 @@ header {
 .btn-blue {
   background-color: #007bff;
 }
+
+/* MENU ICON */
+.menu-icon {
+  /* layout */
+  display: none;
+}
+
   
 /* Write your CSS below */
 
@@ -248,4 +255,28 @@ header {
       /* box-model */
       width: 44%;
     }
+}
+
+
+/* ITERATION 3 — SMALL MOBILE */
+@media (max-width: 479px) {
+  .newspaper-name { 
+    border-bottom: 0;
+  }
+  /* NAVIGATION */
+  .navbar {
+    /* layout */
+    display: none;
+  }
+
+  .menu-icon {
+    /* layout */
+    display: block;
+
+    /* box-model */
+    width: 30px;
+    margin: 0 auto;
+    padding: 10px 0;
+    box-sizing: content-box;
+  }
 }
