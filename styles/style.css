@@ -227,3 +227,25 @@ header {
       width: 100%;
     }
 }
+
+
+/* ITERATION 2 — TABLET */
+@media (min-width: 760px) and (max-width: 1024px) {
+  /* NAVIGATION */
+  .navbar li {
+    /* box-model */
+    width: 25%;
+  }
+
+  /* SECONDARY ARTICLES */
+  .articles-container {
+    /* layout */
+    align-items: flex-start;
+    row-gap: 30px;
+  }
+
+    .article {
+      /* box-model */
+      width: 44%;
+    }
+}
