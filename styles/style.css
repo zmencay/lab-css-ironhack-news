@@ -177,3 +177,53 @@ header {
 }
   
 /* Write your CSS below */
+
+/* ITERATION 1 — MOBILE */
+@media (max-width: 759px) {
+  /* NAVIGATION */
+  .navbar {
+    /* layout */
+    flex-direction: column;
+  }
+
+    .navbar li {
+      /* box-model */
+      width: 100%;
+      border-right: none;
+      border-bottom: 1px solid #fff;
+    }
+
+    .navbar li:last-child {
+      /* box-model */
+      border-bottom: none;
+    }
+
+  /* MAIN ARTICLE */
+  .main-article {
+    /* layout */
+    flex-direction: column;
+  }
+
+    .main-article .image,
+    .main-article .content {
+      /* box-model */
+      width: 100%;
+    }
+
+    .main-article .content {
+      /* box-model */
+      padding-top: 20px;
+    }
+
+  /* SECONDARY ARTICLES */
+  .articles-container {
+    /* layout */
+    flex-direction: column;
+    gap: 35px;
+  }
+
+    .article {
+      /* box-model */
+      width: 100%;
+    }
+}
